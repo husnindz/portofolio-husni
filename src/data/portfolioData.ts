@@ -201,9 +201,16 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
     ],
     githubUrl: "https://github.com/husnindz/Mirai",
     demoUrl: "https://www.youtube.com/watch?v=miVFbIggkfQ",
-    image: "/images/projects/mirai-illustration.svg",
-    imageAlt: "Mirai clinical lab feature selection and SHAP explainability architecture",
+    image: "/images/projects/mirai-official-hero.jpg",
+    imageAlt: "Mirai — Healthcare Risk Assessment official landing page and platform interface",
     gallery: [
+      {
+        url: "/images/projects/mirai-official-hero.jpg",
+        caption: {
+          en: "Mirai official landing page — Early disease risk screening through clinical parameter analysis.",
+          id: "Beranda resmi platform Mirai — Skrining dini risiko penyakit melalui analisis parameter klinis.",
+        },
+      },
       {
         url: "/images/projects/mirai-illustration.svg",
         caption: {
