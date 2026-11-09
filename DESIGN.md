@@ -84,3 +84,4 @@ Inspired by modern digital creative engineering studios (reference: InterOne aes
 - `aria-label` on all icon-only buttons.
 - Fully supports `prefers-reduced-motion`.
 - Responsive test targets: 360px, 390px, 768px, 1024px, 1440px.
+

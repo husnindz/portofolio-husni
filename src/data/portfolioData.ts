@@ -201,9 +201,16 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
     ],
     githubUrl: "https://github.com/husnindz/Mirai",
     demoUrl: "https://www.youtube.com/watch?v=miVFbIggkfQ",
-    image: "/images/projects/mirai-shap-summary.png",
-    imageAlt: "Mirai ML feature importance SHAP summary plot",
+    image: "/images/projects/mirai-illustration.svg",
+    imageAlt: "Mirai clinical lab feature selection and SHAP explainability architecture",
     gallery: [
+      {
+        url: "/images/projects/mirai-illustration.svg",
+        caption: {
+          en: "Architecture diagram: Medical check-up ingestion, feature correlation, neural classifier, and SHAP explainability.",
+          id: "Diagram arsitektur: Ingesti tes lab medis, korelasi fitur, klasifikasi neural, dan interpretasi SHAP.",
+        },
+      },
       {
         url: "/images/projects/mirai-shap-summary.png",
         caption: {
@@ -359,8 +366,17 @@ export const FEATURED_PROJECTS: ProjectDetail[] = [
       { label: { en: "Storage Targets", id: "Target Simpan" }, value: "3 Destinations" },
     ],
     githubUrl: "https://github.com/husnindz/etl-pipeline-fashion-dicoding",
-    image: "/images/projects/mirai-db-schema.png", // will use diagrammatic visualization
-    imageAlt: "ETL Pipeline multi-destination architecture diagram",
+    image: "/images/projects/etl-pipeline-illustration.svg",
+    imageAlt: "ETL Pipeline multi-destination architecture diagram: Extract, Transform, Load with 90%+ Pytest suite",
+    gallery: [
+      {
+        url: "/images/projects/etl-pipeline-illustration.svg",
+        caption: {
+          en: "Architecture diagram: Multi-page web scraping (pages 1-50), currency & data cleaning, and multi-destination dispatch (PostgreSQL, Sheets, CSV).",
+          id: "Diagram arsitektur: Web scraping multi-halaman (1-50), pembersihan data & konversi mata uang, dan dispatch multi-tujuan (PostgreSQL, Sheets, CSV).",
+        },
+      },
+    ],
     disclaimer: {
       en: "90%+ test coverage is verified as documented directly within the project's Pytest test suites and repository specifications.",
       id: "Cakupan uji 90%+ diverifikasi sesuai dokumentasi dan test suite Pytest di dalam repositori resmi proyek.",
@@ -476,3 +492,4 @@ export const OTHER_PROJECTS: ProjectDetail[] = [
     imageAlt: "Streamlit bike sharing analytics dashboard interface",
   },
 ];
+

@@ -9,3 +9,4 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: "https://portofolio-husni.vercel.app/sitemap.xml",
   };
 }
+
